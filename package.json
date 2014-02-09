@@ -1,0 +1,24 @@
+{
+  "name": "bouwen",
+  "version": "0.0.1",
+  "description": "Display a repository build status in your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charliedowler/bouwen"
+  },
+  "keywords": [
+    "bash"
+  ],
+  "author": "charliedowler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charliedowler/bouwen/issues"
+  },
+  "dependencies": {
+    "request": "~2.33.0"
+  }
+}
