@@ -20,5 +20,8 @@
   },
   "dependencies": {
     "request": "~2.33.0"
+  },
+  "bin": {
+    "bouwen": "./bin/bouwen"
   }
 }
