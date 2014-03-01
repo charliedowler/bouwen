@@ -25,7 +25,7 @@ It should look something like this
 ```
 ### Usage
 ```
-bouwen {CI name} {username (Optional)} {password (Optional)} {branch(Optional)}
+bouwen -s {CI name} -u {username (Optional)} -p {password (Optional)} -b {branch(Optional)}
 ```
 ### What should I do with it?
 I created it to show the build status in my terminal while working on the project. Here is a snippet of code to paste into your .bashrc or .bash_profile

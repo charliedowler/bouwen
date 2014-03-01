@@ -19,7 +19,8 @@
     "url": "https://github.com/charliedowler/bouwen/issues"
   },
   "dependencies": {
-    "request": "~2.33.0"
+    "request": "~2.33.0",
+    "minimist": "~0.0.8"
   },
   "bin": {
     "bouwen": "./bin/bouwen"
