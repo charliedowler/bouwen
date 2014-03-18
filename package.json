@@ -1,6 +1,6 @@
 {
   "name": "bouwen",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Display a repository build status in your terminal",
   "main": "index.js",
   "scripts": {
