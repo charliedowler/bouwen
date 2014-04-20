@@ -17,6 +17,8 @@ __Jenkins__: http://jenkinsUrl.com/job/projectname
 
 __Bamboo__: http://bambooUrl.com/rest/api/latest/plan/{PROJECT-KEY}-{BUILD-KEY}/branch
 
+__Travis__: https://api.travis-ci.org/repositories/{USERNAME}/{REPO-NAME}
+
 It should look something like this
 ```
 'repository': {
