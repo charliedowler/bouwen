@@ -8,6 +8,15 @@ npm install -g bouwen
 It grabs the latest build status from Jenkins, Bamboo or Travis (WIP).
 ### Why is it called bouwen?
 Was pasting random words into google translate and it looked pretty cool. Translates to build from Dutch according to Google.
+### Configuration
+You can store your login details in environment variables. Then you can use bouwen without the login params.
+The format is {HOSTNAME}_USERNAME && {HOSTNAME}_PASSWORD
+```shell
+$ export travis-ci_USERNAME=user
+$ export travis-ci_PASSWORD=p4ssword
+$ cd IntoTravisCIProject
+$ bouwen
+```
 ### How do I use it?
 It is a CLI plugin. Just type bouwen from your project root.
 
@@ -33,4 +42,3 @@ bouwen -s {CI name} -u {username (Optional)} -p {password (Optional)} -b {branch
 I created it to show the build status in my terminal while working on the project.
 
 ### What it looks like
-![Terminal example](https://dl.dropboxusercontent.com/u/92547641/bash-build.png)
