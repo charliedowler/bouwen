@@ -42,3 +42,4 @@ bouwen -s {CI name} -u {username (Optional)} -p {password (Optional)} -b {branch
 I created it to show the build status in my terminal while working on the project.
 
 ### What it looks like
+![Terminal example](https://dl.dropboxusercontent.com/u/92547641/bash-build.png)
