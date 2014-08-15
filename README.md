@@ -36,7 +36,7 @@ It should look something like this
 ```
 ### Usage
 ```
-bouwen -s {CI name} -u {username (Optional)} -p {password (Optional)} -b {branch(Optional)} -d #shows errors
+bouwen -s {CI name} -j {job-url (Optional)} -u {username (Optional)} -p {password (Optional)} -b {branch(Optional)} -d #shows errors
 ```
 ### What should I do with it?
 I created it to show the build status in my terminal while working on the project.
