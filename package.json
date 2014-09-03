@@ -4,7 +4,7 @@
   "description": "Display a repository build status in your terminal",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   "dependencies": {
     "request": "~2.33.0",
     "minimist": "~0.0.8"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-simple-mocha": "^0.4.0",
+    "is-up": "^1.0.0"
   },
   "bin": {
     "bouwen": "./bin/bouwen"
