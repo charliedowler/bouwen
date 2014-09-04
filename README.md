@@ -1,4 +1,4 @@
-#Bouwen
+# Bouwen [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 ### Installation
 ```
@@ -43,3 +43,12 @@ I created it to show the build status in my terminal while working on the projec
 
 ### What it looks like
 ![Terminal example](https://dl.dropboxusercontent.com/u/92547641/bash-build.png)
+
+[npm-url]: https://npmjs.org/package/bouwen
+[npm-image]: https://badge.fury.io/js/bouwen.png
+
+[travis-url]: http://travis-ci.org/charliedowler/bouwen
+[travis-image]: https://secure.travis-ci.org/charliedowler/bouwen.png?branch=master
+
+[depstat-url]: https://david-dm.org/charliedowler/bouwen
+[depstat-image]: https://david-dm.org/charliedowler/bouwen.png
