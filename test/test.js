@@ -5,6 +5,7 @@ var isTravis = require('is-travis');
 var exec = require('child_process').exec;
 
 it('Should see that the bouwen build is either STARTED | PASSED | FAILED', function(done) {
+  this.timeout(5000);
   isUp('google.com', function(err, up) {
     if (err || !up) done();
     exec('node ./bin/bouwen -j https://api.travis-ci.org/repositories/charliedowler/bouwen', function(err, stdout, stderr) {
