@@ -10,7 +10,7 @@ it('Should see that the bouwen build is either STARTED | PASSED | FAILED', funct
     if (err || !up) done();
     exec('node ./bin/bouwen -j https://api.travis-ci.org/repositories/charliedowler/bouwen', function(err, stdout, stderr) {
       var status = (/PASSED/.test(stdout)) ? 'PASSED\n' : 'FAILED\n';
-      assert.equal(stdout, isTravis ? 'STARTED\n' : status);
+      assert.equal(stdout, isTravis ? (/STARTED/.test(stdout) ? 'STARTED\n' : 'CREATED\n') : status);
       done();
     })
   })
