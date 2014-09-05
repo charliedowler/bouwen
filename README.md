@@ -42,7 +42,7 @@ bouwen -s {CI name} -j {job-url (Optional)} -u {username (Optional)} -p {passwor
 I created it to show the build status in my terminal while working on the project.
 
 ### What it looks like
-![Terminal example](https://dl.dropboxusercontent.com/u/92547641/bash-build.png)
+![Terminal example](https://dl.dropboxusercontent.com/u/92547641/bash-build.gif)
 
 [npm-url]: https://npmjs.org/package/bouwen
 [npm-image]: https://badge.fury.io/js/bouwen.png
