@@ -1,6 +1,6 @@
 {
   "name": "bouwen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Display a repository build status in your terminal",
   "main": "index.js",
   "scripts": {
@@ -19,11 +19,11 @@
     "url": "https://github.com/charliedowler/bouwen/issues"
   },
   "dependencies": {
-    "request": "~2.33.0",
-    "minimist": "~0.0.8"
+    "request": "^2.42.0",
+    "minimist": "^1.1.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.2",
+    "grunt": "^0.4.5",
     "grunt-simple-mocha": "^0.4.0",
     "is-travis": "^1.0.0",
     "is-up": "^1.0.0"
