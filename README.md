@@ -26,7 +26,7 @@ __Jenkins__: http://jenkinsUrl.com/job/projectname
 
 __Bamboo__: http://bambooUrl.com/rest/api/latest/plan/{PROJECT-KEY}-{BUILD-KEY}/branch
 
-__Travis__: https://api.travis-ci.org/repositories/{USERNAME}/{REPO-NAME}
+__Travis__: https://api.travis-ci.org/repositories/{USERNAME}/{REPO-NAME} || {USERNAME}/{REPO-NAME}
 
 It should look something like this
 ```
@@ -35,8 +35,22 @@ It should look something like this
 }
 ```
 ### Usage
-```
+```sh
 bouwen -s {CI name} -j {job-url (Optional)} -u {username (Optional)} -p {password (Optional)} -b {branch(Optional)} -d #shows errors
+```
+
+### Example
+
+```sh
+# Using travis
+
+$ bouwen -j charliedowler/bouwen
+
+#=> PASSED
+
+$ bouwen -j https://api.travis-ci.org/repositories/charliedowler/bouwen
+
+#=> PASSED
 ```
 ### What should I do with it?
 I created it to show the build status in my terminal while working on the project.
